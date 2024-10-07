@@ -1,11 +1,13 @@
-import './App.css'
-import DayDiscount from "./components/DayDiscount"
+import './App.css';
+import DayDiscount from "./components/DayDiscount";
+import Navbar from "./components/Navbar";
 function App() {
   
 
   return (
     <>
-      <DayDiscount/>
+      <Navbar/>
+      
     </>
   )
 }
