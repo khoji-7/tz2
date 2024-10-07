@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+.play-regular {
+  font-family: "Play", sans-serif;
+}
+
+.play-bold {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  
+}
