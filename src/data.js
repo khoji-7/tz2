@@ -43,18 +43,46 @@ const bigDiscount = [
     img: gostyImg,
     title: "Gosty",
     desc: "Каждый вторник — 20% на все меню",
+    pos: "Рестораны"
   },
   {
     id: 2,
     img: shoshImg,
     title: "SHOSH",
     desc: "Скидки на еду и напитки",
+    pos:"Кафе"
   },
   {
     id: 3,
     img: petrovicImg,
-    title: "TEXNOMART",
-    desc: "До — 60% на бытовую технику в ТЦ «Samarkand Darvoza»",
+    title: "Petrovich",
+    desc: "Ланч по выгодной цене и 2% кешбэк по промокоду",
+    pos: "Рестораны"
+
+  },
+  {
+    id: 4,
+    img: petrovicImg,
+    title: "Petrovich",
+    desc: "Ланч по выгодной цене и 2% кешбэк по промокоду",
+    pos: "Рестораны"
+
+  },
+  {
+    id: 5,
+    img: petrovicImg,
+    title: "Petrovich",
+    desc: "Ланч по выгодной цене и 2% кешбэк по промокоду",
+    pos: "Рестораны"
+
+  },
+  {
+    id: 6,
+    img: petrovicImg,
+    title: "Petrovich",
+    desc: "Ланч по выгодной цене и 2% кешбэк по промокоду",
+    pos: "Рестораны"
+
   },
 ];
 

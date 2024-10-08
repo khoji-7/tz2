@@ -1,11 +1,11 @@
 import React from 'react'
 
-const topDiscount = () => {
+const TopDiscount = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+       
+    </>
   )
 }
 
-export default topDiscount
+export default TopDiscount

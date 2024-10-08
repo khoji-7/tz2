@@ -1,12 +1,15 @@
 import './App.css';
-import DayDiscount from "./components/DayDiscount";
-import Navbar from "./components/Navbar";
+import Swipers from './components/Swiper';
+import TopDiscount from './components/topDiscount';
+// import DayDiscount from "./components/DayDiscount";
+// import Navbar from "./components/Navbar";
 function App() {
   
 
   return (
     <>
-      <Navbar/>
+     <TopDiscount/>
+     <Swipers/>
       
     </>
   )
