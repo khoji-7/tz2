@@ -31,8 +31,20 @@ const Faqs = () => {
 
   return (
     <>
-      
-      
+        <section className='max-w-[970px]'>
+          <p className='play-bold text-[#023131] text-3xl '>
+          Добро пожаловать на сайт
+          </p>
+          <p className='text-[18px] play-bold text-[#001C1C] '>
+          Ваш надёжный помощник в поиске лучших скидок и акций различных компаний!
+          </p>
+          <p className='play-regular text-[17px] text-[#3C5858]'>
+          Мы собрали для вас все самые выгодные предложения, чтобы вы могли сэкономить свои деньги и получить максимум удовольствия от покупок.
+          </p>
+          <p className='play-regular text-[#607282] text-[17px]'>
+          Развернуть текст
+          </p>
+        </section>
         <section className='max-w-[970px] '>
           <p className='play-bold text-[#023131] text-[44px]'>
           FAQ
@@ -41,14 +53,14 @@ const Faqs = () => {
           <div className='box'>
             {questions.map((item, index) => (
               <div key={index}>
-                <button className='realative' onClick={() => toggle(index)}>
-                  <h2 className={click === index ? "border-b-2 border-black text-xl": "text-xl text-[#3C5858]"}>{item.question}</h2>
-                  <span className='absolute '>
+                <button className='flex items-center justify-between text-left w-[100%] border-b pb-3 border-[#3C5858] ' onClick={() => toggle(index)}>
+                  <h2 className={click === index ? " text-xl": "text-xl text-[#3C5858] hover:text-black ease-in-out duration-300"}>{item.question}</h2>
+                  <span className=' hover:text-red-500 ease-in  duration-300 '>
                     {click === index ? <CiCircleChevUp/> : <CiCircleChevDown/>}
                   </span>
                 </button>
                 {click === index && (
-                  <div className='p-3 ml-[10%]'>
+                  <div className='p-3 ml-[10%] mr-[5%]'>
                     <p className='text-xl play-regular '>{item.answer}</p>
                   </div>
                 )}
