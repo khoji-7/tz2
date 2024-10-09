@@ -16,7 +16,7 @@ const navbar = () => {
     }
 
     return (<>
-        <nav className="flex items-center justify-between p-8 border-b border-dashed border-[#248888] ">
+        <nav className="flex items-center justify-between p-8 border-b border-dashed max-w-[1440px] mx-auto border-[#248888] ">
             <p className="play-bold text-5xl text-[#023131]">Logo</p>
             <ul className=" hidden  lg:max-w-lg lg:flex lg:items-center lg:gap-[3%]">
                 <li className="text-[18px] play-regular font-weight-400 text-[#001C1C] hover:text-red-500 hover:cursor-pointer flex items-center">
@@ -46,8 +46,8 @@ const navbar = () => {
                 <CiSearch className="text-[#248888]"/>
                 <FaTelegramPlane/>
                 <AiOutlineUserAdd/>
-                <p className="text-[18px] play-regular font-weight-400 text-[#001C1C]">Ру</p>
-                <button className=" hidden md:max-w-lg md:flex md:items-center md:px-[10%] md:w-[200px]  md:h-12 md:rounded-2xl  md:bg-[#FF2E4C] text-white">
+                <p className="text-[18px] play-regular font-weight-400 text-[#001C1C] hover:text-red-500 hover:cursor-pointer">Ру</p>
+                <button type="submit" className=" hidden md:max-w-lg md:flex md:items-center md:px-[10%] md:w-[200px] hover:bg-white hover:text-[#FF2E4C] ease-in-out duration-500 cursor-pointer hover:border-2 hover:border-[#FF2E4C] md:h-12 md:rounded-2xl  md:bg-[#FF2E4C] text-white">
                     Добавить скидку
                 </button>
             </div>

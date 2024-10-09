@@ -56,7 +56,7 @@ const Faqs = () => {
                 <button className='flex items-center justify-between text-left w-[100%] border-b pb-3 border-[#3C5858] ' onClick={() => toggle(index)}>
                   <h2 className={click === index ? " text-xl": "text-xl text-[#3C5858] hover:text-black ease-in-out duration-300"}>{item.question}</h2>
                   <span className=' hover:text-red-500 ease-in  duration-300 '>
-                    {click === index ? <CiCircleChevUp/> : <CiCircleChevDown/>}
+                    {click === index ? <CiCircleChevUp className='text-[30px]'/> : <CiCircleChevDown className='text-[30px]'/>}
                   </span>
                 </button>
                 {click === index && (
