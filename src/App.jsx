@@ -7,9 +7,9 @@ function App() {
   
 
   return (
-    <div className='p-[1%]'>
+    <div className='p-[1%] '>
     <Navbar/>
-      <section className='flex flex-row justify-between '>
+      <section className='flex flex-col justify-between md:max-w-md md:flex md:flex-row'>
         <DayDiscount/>
         <section className='p-5'>
           <Swipers/>
