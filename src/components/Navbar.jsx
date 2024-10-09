@@ -16,7 +16,7 @@ const navbar = () => {
     }
 
     return (<>
-        <nav className="flex items-center justify-between p-8 border-b border-dashed border-[#248888]">
+        <nav className="flex items-center justify-between p-8 border-b border-dashed border-[#248888] ">
             <p className="play-bold text-5xl text-[#023131]">Logo</p>
             <ul className=" hidden  lg:max-w-lg lg:flex lg:items-center lg:gap-[3%]">
                 <li className="text-[18px] play-regular font-weight-400 text-[#001C1C] hover:text-red-500 hover:cursor-pointer flex items-center">

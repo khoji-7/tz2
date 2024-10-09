@@ -4,7 +4,7 @@ import {dayDiscount} from "../data"; // dayDiscount sifatida import qilingan
 const DayDiscount = () => {
     return (
         <>
-            <aside className="max-w-[290px] p-5 bg-[#F0F6F6]">
+            <aside className="max-w-[290px] mx-auto p-5 bg-[#F0F6F6]">
                 <h1 className="text-[44px] play-bold">Скидки дня</h1>
                 <p className="play-regular text-[#607282] text-[16px] font-weight-700">
                     {dayDiscount.length} предложения

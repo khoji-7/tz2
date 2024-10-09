@@ -32,12 +32,12 @@ const Swipers = () => {
 
   return (
     <>
-      <div className='flex  relative flex-col h-[570px] max-w-[970px] bg-[#F0F6F6] p-8'>
+      <div className='flex  relative flex-col h-auto max-w-[970px] bg-[#F0F6F6] p-8'>
 
         <h1 className='text-left play-bold text-[#248888] mb-5 border-b-2 border-[#BEDADA]  text-[44px] leading-3rem'>
         Топовые скидки
         </h1>
-        <ul className='w-[340px] flex flex-row justify-between mb-5'>
+        <ul className='w-[340px] flex flex-col j justify-center mb-5 md:flex md:flex-row md:justify-between'>
             <li className='play-regular text-[20px] text-[#3C5858]'>Питание</li>
             <li className='play-regular text-[20px] text-[#3C5858]'>Связь</li>
             <li className='play-regular text-[20px] text-[#3C5858]'>Магазины</li>
